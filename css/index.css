@@ -1,0 +1,1575 @@
+body {
+    background-color: #fff;
+    font-family: Roboto, "Helvetica Neue", 'Helvetica', Arial, sans-serif;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 1.38;
+    color: #fff;
+}
+
+/* ---- Top Image ------ */
+
+.top-logos-box {
+    position: absolute;
+    width: 300px;
+    margin: 50px auto;
+    left: 0;
+    right: 0;
+    background-image: url(../images/plus-icon.png);
+    background-repeat: no-repeat;
+    background-position: center;     
+}
+
+.top-logo-1 {
+    margin-right: 30px;
+    float: left;
+}
+
+.top-logo-2 {
+    float: left;
+}
+
+.top-logo-1 .top-logo-1 {
+    display: block;
+    width: 128px;
+    overflow: hidden;
+}
+
+.top-logo-2 .top-logo-2 {
+    display: block;
+    width: 94px;
+    overflow: hidden;
+}
+
+.top {
+    float: left;
+    width: 100%;
+    background-color: #8a67a5;
+}
+
+
+.top-ilo {
+    width: 100%;
+    max-width: 1086px;
+    display: block;
+    height: auto;
+    margin: 0 auto;
+}
+
+/*
+.top-ilo img {
+    width: 100%;
+    height: 100%;
+    display: block;
+    margin: 0 auto;
+}
+
+*/
+
+
+.icon{
+  width: 100px;
+  height: 100px;
+  background-image: url(icon.png);
+}
+
+.image {
+  display: block;
+  height: auto;
+  margin: 0 auto;
+  overflow: hidden;
+}
+
+
+/* ---- Banners ------ */
+
+
+.banner-box {
+  width: 100%;
+  height: 92px;
+  margin: 0 auto;
+  background-image: url('../images/features%20banners@2x.png');
+  background-repeat: no-repeat;
+  background-size: 385px 92px;
+  background-position: center center;
+}
+
+.banner-box2 {
+    width: 100%;
+    height: 92px;
+    margin: 0 auto;
+    background-image: url('../images/money%20prize%20banner@2x.png');
+    background-repeat: no-repeat;
+    background-size: 385px 92px;
+    background-position: center center;
+    z-index: 1000000;
+}
+
+.banner-box3 {
+  width: 100%;
+  height: 92px;
+  margin: 0 auto;
+  background-image: url('../images/jury%20banner@2x.png');
+  background-repeat: no-repeat;
+  background-size: 325px 92px;
+  background-position: center center;
+}
+
+.brand-box {
+    width: 80%;
+    height: auto
+    min-width: 320px;
+    max-width: 960px;
+    margin: 0 auto 0;
+    
+}
+
+/* ---- Badges ------ */
+
+.blue-badge {
+  position: relative;
+  width: 200px;
+  height: 200px;
+  margin: 100px auto 0;
+  background-image: url('../images/label-blue@2x.png');
+  background-repeat: no-repeat;
+  background-size: 200px 200px;
+  background-position: center center;
+  display: table;
+}
+
+.blue-badge p {
+    display: table-cell;
+    vertical-align: middle;
+    text-align: center;
+    padding-right: 20px;
+    padding-left: 20px;
+    font-family: 'Roboto Condensed', "Helvetica Neue", 'Helvetica', Arial, sans-serif;
+    font-size: 24px;
+}
+
+.brown-badge {
+    position: relative;
+    width: 200px;
+    height: 200px;
+    margin: 60px auto 0;
+    background-image: url('../images/label-brown@2x.png');
+    background-repeat: no-repeat;
+    background-size: 200px 200px;
+    background-position: center center;
+    display: table;
+}
+
+.brown-badge p {
+    display: table-cell;
+    vertical-align: middle;
+    text-align: center;
+    padding-right: 20px;
+    padding-left: 20px;
+    font-family: 'Roboto Condensed', "Helvetica Neue", 'Helvetica', Arial, sans-serif;
+    font-size: 22px;
+}
+
+.purple-badge {
+    position: relative;
+    width: 200px;
+    height: 200px;
+    margin: 60px auto 0;
+    background-image: url('../images/label-purple@2x.png');
+    background-repeat: no-repeat;
+    background-size: 200px 200px;
+    background-position: center center;
+    display: table;
+}
+
+.purple-badge p {
+    display: table-cell;
+    vertical-align: middle;
+    text-align: center;
+    padding-right: 20px;
+    padding-left: 20px;
+    font-family: 'Roboto Condensed', "Helvetica Neue", 'Helvetica', Arial, sans-serif;
+    font-size: 22px;
+}
+
+/* --------- List box -------- */
+
+.list-box {
+    width: 100%;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 60px;
+    max-width: 900px;
+    padding-right: 20;
+    padding-left: 20;
+}
+
+li {
+    float: left;
+    font-size: 20px;
+    font-weight: 500;
+    color: #333333;
+    
+}
+
+li a {
+    color: #f55c8b;
+    text-decoration: underline;
+}
+
+li a:hover {
+    text-decoration: none;
+}
+
+ul {
+    margin: 0 auto;
+}
+
+ul li span  {
+    display: inline-block;  
+    vertical-align: middle; 
+}
+
+ul li:before {
+    content: '';
+    display: inline-block;
+    vertical-align: middle;   
+}
+
+.checkboxes-1 {
+    width: 80%;
+    overflow: visible;
+    display: table;
+}
+
+li.arrow {
+    background: url('../images/list-arrow.png') no-repeat center left;
+    padding-left: 44px;
+    margin-bottom: 20px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+
+}
+
+li.arrow-none {
+    background: none;
+    height: 56px;
+    padding-left: 44px;
+}
+
+li.checkmark {
+    background: url('../images/list-checkmark.png') no-repeat center left;
+    height: 56px;
+    padding-left: 44px;
+    width: 100%;
+}
+
+ul li.checkmark:before {
+    height: 100%;
+}
+
+.checkboxes-2 {
+  width: 400px;
+}
+
+/* ------- Retina support ------ */
+
+@media only screen and (-moz-min-device-pixel-ratio: 1.5), only screen and (-o-min-device-pixel-ratio: 3/2), only screen and (-webkit-min-device-pixel-ratio: 1.5), only screen and (min-devicepixel-ratio: 1.5), only screen and (min-resolution: 1.5dppx) {
+  .icon{
+    background-image: url(icon@2x.png);
+    background-size: 100px 100px;
+  }
+    
+    li.arrow {
+        background: url('../images/list-arrow@2x.png') no-repeat center left;
+        background-size: 36px 36px;
+    }
+    
+    li.checkmark {
+        background: url('../images/list-checkmark@2x.png') no-repeat center left;
+        background-size: 36px 36px;
+    }
+    
+    .lines-top-1 {
+        background-image: url('../images/line-top@2x.png') no-repeat center left;
+    }
+
+    .lines-top-2 {
+        background-image: url('../images/line-middle@2x.png') no-repeat center left;
+    }
+
+    .lines-top-3 {
+        background-image: url('../images/line-bottom@2x.png') no-repeat center left;
+    }
+    
+    .top-logos-box {
+        background-image: url(../images/plus-icon@2x.png);
+        background-repeat: no-repeat;
+        background-position: center;     
+    }
+}
+
+/* ------------- */
+
+
+
+
+.brand-container {
+  width: 100%;
+  max-width: 900px;
+  margin: 40px auto 0;
+}
+
+.brand1 {
+  display: block;
+  position: relative;
+  float: left;
+  z-index: 10;
+  width: 240px;
+  height: 140px;
+  background-image: url('../images/fgl-logo@2x.png');
+  background-repeat: no-repeat;
+  background-size: 240px 120px;
+  background-position: center center;
+}
+
+.brand2 {
+  display: block;
+  position: relative;
+  float: left;
+  z-index: 9;
+  width: 240px;
+  height: 140px;
+  background-image: url('../images/emanuele-feronato@2x.png');
+  background-repeat: no-repeat;
+  background-size: 240px 120px;
+  background-position: center center;
+}
+
+.brand3 {
+  display: block;
+  position: relative;
+  float: left;
+  z-index: 8;
+  width: 240px;
+  height: 140px;
+  background-image: url('../images/Iriysoft2x.png');
+  background-repeat: no-repeat;
+  background-size: 240px 120px;
+  background-position: center center;
+}
+
+.brand4 {
+  display: block;
+  position: relative;
+  float: left;
+  z-index: 7;
+  width: 240px;
+  height: 140px;
+  margin-top: 1px;
+  background-image: url('../images/ben-olding-games@2x.png');
+  background-repeat: no-repeat;
+  background-size: 240px 120px;
+  background-position: center center;
+}
+
+.brand5 {
+  display: block;
+  position: relative;
+  float: left;
+  z-index: 6;
+  width: 240px;
+  height: 140px;
+  margin-top: 1px;
+  background-image: url('../images/y8@2x.png');
+  background-repeat: no-repeat;
+  background-size: 240px 120px;
+  background-position: center center;
+}
+
+.brand6 {
+  display: block;
+  position: relative;
+  float: left;
+  z-index: 5;
+  width: 240px;
+  height: 140px;
+  margin-top: 1px;
+  background-image: url('../images/id.net@2x.png');
+  background-repeat: no-repeat;
+  background-size: 240px 120px;
+  background-position: center center;
+}
+
+
+
+.container1 {
+  position: relative;
+  float: left;
+  clear: both;
+  z-index: 80;
+  width: 100%;
+  padding-top: 100px;
+  padding-bottom: 100px;
+  background-color: #f3d8b5;
+}
+
+.container2 {
+  position: relative;
+  float: left;
+  clear: both;
+  z-index: 46;
+  width: 100%;
+  padding-top: 100px;
+  padding-bottom: 100px;
+  background-color: #d6617f;
+}
+
+.container3 {
+  position: relative;
+  float: left;
+  clear: both;
+  z-index: 33;
+  width: 100%;
+  padding-top: 100px;
+  padding-bottom: 100px;
+  background-color: #8a67a5;
+}
+
+.container4 {
+  position: relative;
+  float: left;
+  clear: both;
+  width: 100%;
+  padding-top: 100px;
+  padding-bottom: 100px;
+  background-color: rgb(255, 255, 255);
+}
+
+.feature-box1 {
+  float: left;
+  width: 180px;
+  height: 220px;
+  background-image: url('../images/icon-achievements@2x.png');
+  background-repeat: no-repeat;
+  background-size: 126px 126px;
+  background-position: center top;
+}
+
+.feature-box2 {
+  float: left;
+  width: 180px;
+  height: 220px;
+  background-image: url('../images/icon-highscores@2x.png');
+  background-repeat: no-repeat;
+  background-size: 126px 126px;
+  background-position: center top;
+}
+
+.feature-box3 {
+  float: left;
+  width: 180px;
+  height: 220px;
+  background-image: url('../images/icon-cloud@2x.png');
+  background-repeat: no-repeat;
+  background-size: 126px 126px;
+  background-position: center top;
+}
+
+.feature-box4 {
+  float: left;
+  width: 180px;
+  height: 220px;
+  background-image: url('../images/icon-multiplayer@2x.png');
+  background-repeat: no-repeat;
+  background-size: 126px 126px;
+  background-position: center top;
+}
+
+.feature-box5 {
+  float: left;
+  width: 180px;
+  height: 220px;
+  background-image: url('../images/icon-online@2x.png');
+  background-repeat: no-repeat;
+  background-size: 126px 126px;
+  background-position: center top;
+}
+
+.feature-icon-container {
+  width: 100%;
+  min-width: 320px;
+  max-width: 960px;
+  margin: 40px auto 0;
+  padding-top: 10px;
+}
+
+.feature-label {
+  margin: 150px 20px 0;
+  font-family: 'Roboto Condensed, "Helvetica Neue", 'Helvetica', Arial, sans-serif';
+  font-weight: 400;
+  line-height: 1.38;
+  text-align: center;
+  color: rgb(255, 255, 255);
+}
+
+.first-place {
+  position: relative;
+  float: left;
+  z-index: 30;
+  width: 240px;
+  margin-left: 0.00163%;
+  background-image: url('../images/ilo-grand-prize@2x.png');
+  background-repeat: no-repeat;
+  background-size: 157px 190px;
+  background-position: center top;
+}
+
+.first-place-details {
+  float: left;
+  clear: both;
+  width: 100%;
+  font: 24px/1.38 'Roboto Condensed', "Helvetica Neue", 'Helvetica', Arial, sans-serif;
+  text-align: center;
+  color: rgb(255, 255, 255);
+}
+
+.first-place-label {
+  margin: 220px auto 0;
+  font: 400 60px/1.38 'Roboto Condensed', "Helvetica Neue", 'Helvetica', Arial, sans-serif;
+  text-align: center;
+  color: rgb(255, 255, 255);
+}
+
+.forth-place {
+  float: left;
+  width: 160px;
+  padding-bottom: 20px;
+  background-repeat: no-repeat;
+  background-size: 80px 80px;
+  background-position: center top;
+}
+
+
+
+.label {
+  margin: 0 auto;
+  font-weight: 700;
+  line-height: 1.38;
+  text-align: center;
+  color: #e14666;
+}
+/* ---- Lines ------ */
+
+.lines {
+  position: absolute;
+  margin-top: 500px;
+  margin-left: 10%;
+  z-index: 85;
+  width: 30%;
+  height: 2400px;
+  
+}
+
+.lines-top {
+  float: left;
+  width: 400px;
+}
+
+.lines-top-1 {
+    position: relative;
+    width: 400px;
+    height: 112px;
+    background-image: url('../images/line-top.png');
+    background-repeat: no-repeat;
+    background-position: top left;
+    overflow: hidden;
+    width: 100%;
+}
+
+.lines-top-2 {
+    position: relative;
+    clear: both;
+    height: 100%;
+    background-image: url('../images/line-middle.png');
+    background-repeat: repeat-y;
+    background-position: top left;
+}
+
+.lines-top-3 {
+    position: relative;
+    clear: both;
+    width: 280px;
+    height: 182px;
+    background-image: url('../images/line-bottom.png');
+    background-repeat: no-repeat;
+    background-position: top left;
+}
+
+
+/* ------- */
+
+
+
+.logo-box1 {
+    float: left;
+    width: 120px;
+    height: 80px;
+    background-image: url('../images/html5@2x.png');
+    background-repeat: no-repeat;
+    background-size: 120px 80px;
+    background-position: center center;
+    margin-bottom: 20px;
+}
+
+.logo-box2 {
+    float: left;
+    width: 120px;
+    height: 80px;
+    background-image: url('../images/js@2x.png');
+    background-repeat: no-repeat;
+    background-size: 120px 80px;
+    background-position: center center;
+    margin-bottom: 20px;
+}
+
+.logo-box3 {
+    float: left;
+    width: 120px;
+    height: 80px;
+    background-image: url('../images/flash@2x.png');
+    background-repeat: no-repeat;
+    background-size: 120px 80px;
+    background-position: center center;
+    margin-bottom: 20px;
+}
+
+.logo-box4 {
+    float: left;
+    width: 120px;
+    height: 80px;
+    background-image: url('../images/as3@2x.png');
+    background-repeat: no-repeat;
+    background-size: 120px 80px;
+    background-position: center center;
+    margin-bottom: 20px;
+}
+
+.logo-box5 {
+    float: left;
+    width: 120px;
+    height: 80px;
+    background-image: url('../images/as2@2x.png');
+    background-repeat: no-repeat;
+    background-size: 120px 80px;
+    background-position: center center;
+    margin-bottom: 20px;
+}
+
+.logo-box6 {
+    float: left;
+    width: 120px;
+    height: 80px;
+    background-image: url('../images/webgl@2x.png');
+    background-repeat: no-repeat;
+    background-size: 120px 80px;
+    background-position: center center;
+    margin-bottom: 20px;
+}
+
+.logo-box7 {
+    float: left;
+    width: 120px;
+    height: 80px;
+    background-image: url('../images/haxe@2x.png');
+    background-repeat: no-repeat;
+    background-size: 120px 80px;
+    background-position: center center;
+    margin-bottom: 20px;
+}
+
+.logo-box8 {
+    float: left;
+    width: 120px;
+    height: 80px;
+    background-image: url('../images/unity@2x.png');
+    background-repeat: no-repeat;
+    background-size: 120px 80px;
+    background-position: center center;
+    margin-bottom: 20px;
+}
+
+.logos-container {
+  width: 100%;
+  min-width: 240px;
+  max-width: 960px;
+  margin: 60px auto 0;
+}
+
+.other-places {
+  position: relative;
+  float: left;
+  clear: both;
+  z-index: 27;
+  width: 71.875%;
+  margin: -255px 0 0 25%;
+}
+
+.prize-container {
+  width: 80%;
+  max-width: 960px;
+  margin: 60px auto 0;
+}
+
+
+
+.second-place {
+  float: left;
+  width: 160px;
+  padding-bottom: 20px;
+  background-image: url('../images/gold-ilo@2x.png');
+  background-repeat: no-repeat;
+  background-size: 80px 80px;
+  background-position: center top;
+}
+
+.second-place-details {
+  float: left;
+  clear: both;
+  width: 100%;
+  font-family: 'Roboto Condensed', "Helvetica Neue", 'Helvetica', Arial, sans-serif;
+  line-height: 1.38;
+  text-align: center;
+  color: rgb(255, 255, 255);
+}
+
+.second-place-label {
+  margin: 90px auto 0;
+  font: 30px/1.38 'Roboto Condensed', "Helvetica Neue", 'Helvetica', Arial, sans-serif;
+  text-align: center;
+  color: rgb(255, 255, 255);
+}
+
+.spacer {
+  width: 100%;
+  height: 12px;
+  margin-right: auto;
+  margin-left: auto;
+  background-image: url('../images/dot%20point@2x.png');
+  background-repeat: no-repeat;
+  background-size: 12px 12px;
+  background-position: center center;
+}
+
+.spacer-grey {
+  width: 100%;
+  height: 12px;
+  margin: 60px auto 0;
+  background-image: url('../images/dot-point-grey@2x.png');
+  background-repeat: no-repeat;
+  background-size: 12px 12px;
+  background-position: center center;
+}
+
+
+
+.third-place {
+  float: left;
+  width: 160px;
+  padding-bottom: 20px;
+  background-image: url('../images/silver-ilo@2x.png');
+  background-repeat: no-repeat;
+  background-size: 80px 80px;
+  background-position: center top;
+}
+
+.title1 {
+  margin: 0 auto;
+}
+
+.title1 .title1 {
+  display: block;
+  width: 868px;
+  height: auto;
+  overflow: hidden;
+}
+
+.title2 {
+  width: 100%;
+  height: 79px;
+  margin: 20px auto 0;
+}
+
+.title2 .image {
+  width: 707px;
+}
+
+
+._button {
+  display: block;
+  margin-right: auto;
+  margin-left: auto;
+  line-height: 1.38;
+  text-align: center;
+}
+
+
+.container1 ._button {
+  margin-top: 40px;
+}
+
+.container3 ._button {
+  width: 340px;
+  height: 72px;
+  border-radius: 5px;
+  background-color: #f55c8b;
+  box-shadow: 3px 4px 0 rgba(0, 0, 0, 0.2);
+  font-family: 'Roboto Condensed', "Helvetica Neue", 'Helvetica', Arial, sans-serif;
+  font-size: 30px;
+  font-weight: 400;
+  color: rgb(255, 255, 255);
+}
+
+.container3 ._button:hover {
+  background-color: #ff6b99;
+  box-shadow: 3px 4px 0 rgba(0, 0, 0, 0.2);
+}
+
+.container3 ._button:active {
+  background-color: #f55c8b;
+  opacity: 1;
+}
+
+.container3 ._button:focus {
+  background-color: #f55c8b;
+}
+
+
+
+.forth-place-1 {
+  background-image: url('../images/bronze-ilo@2x.png');
+}
+
+.forth-place-2 {
+  background-image: url('../images/5th-ilo@2x.png');
+}
+
+
+
+
+.spacer-1 {
+  margin-bottom: 20px;
+}
+
+.spacer-2 {
+  margin-top: 40px;
+}
+
+.spacer-3,
+.spacer-4 {
+  margin-top: 60px;
+}
+
+
+
+.title1-1 {
+  width: 100%;
+  height: 120px;
+}
+
+.container1 ._button-1 {
+  width: 340px;
+  height: 72px;
+  border-radius: 5px;
+  background-color: rgb(225, 70, 102);
+  box-shadow: 3px 4px 0 rgba(0, 0, 0, 0.2);
+  font-family: 'Roboto Condensed', "Helvetica Neue", 'Helvetica', Arial, sans-serif;
+  font-size: 30px;
+  font-weight: 400;
+  color: rgb(255, 255, 255);
+}
+
+.container1 ._button-1:hover {
+  background-color: rgb(241, 75, 109);
+  box-shadow: 3px 4px 0 rgba(0, 0, 0, 0.2);
+}
+
+.container1 ._button-1:active,
+.container1 ._button-1:focus {
+  background-color: rgb(225, 70, 102);
+}
+
+.container1 ._button-2 {
+  width: 144px;
+  height: 56px;
+  border-radius: 40px;
+  background-color: rgba(255, 255, 255, 0.75);
+  font-size: 24px;
+  font-weight: 500;
+  text-decoration: underline;
+  color: rgb(225, 70, 102);
+    line-height: 52px;
+}
+
+.container1 ._button-2:hover {
+  text-decoration: none;
+
+}
+
+.footer-links {
+    text-align: center;
+}
+
+.footer-links a {
+    text-decoration: underline;
+    color: #666666;
+    clear: both;
+    line-height: 1.88;
+}
+
+.footer-links a:hover {
+    text-decoration: none;
+}
+
+.bottom-links {
+  width: 100%;
+  max-width: 960px;
+  margin: 30 auto;
+}
+
+
+.text-box {
+  width: 100%;
+  margin: 0 auto;
+}
+
+
+
+@media(max-width: 1200px) {
+    
+
+.feature-icon-container {
+    padding-top: 20px;
+}
+
+.lines {
+  height: 2710px;
+}    
+    
+.feature-icon-box {
+    width: 560px;
+    margin: 0 auto 0;
+}
+   
+.container1 .logos-container {
+    width: 60%;
+    margin-top: 40px;
+  }
+    
+ .prize-container .other-places {
+    position: relative;
+    float: left;
+    clear: none;
+    z-index: 27;
+    width: 340px;
+    margin-top: 0;
+    margin-right: auto;
+    margin-left: 20px;
+    padding-bottom: 60px;
+  }
+    
+  .prize-container .first-place {
+      position: relative;
+      margin-left: 15%;
+  }
+    
+    
+}
+
+
+@media(max-width: 960px) {
+
+.top-logos-box {
+    margin-top: 5%;
+}
+    
+
+.prize-container .other-places {
+    float: none;
+    margin-top: 40px;
+    margin-left: auto;
+}
+
+    
+  .brand-container .brand1 {
+    position: relative;
+    z-index: 10;
+  }
+
+  .brand-container .brand2 {
+    position: relative;
+    z-index: 9;
+  }
+
+  .brand-container .brand3 {
+    position: relative;
+    z-index: 8;
+  }
+
+  .brand-container .brand4 {
+    position: relative;
+    z-index: 7;
+  }
+
+  .brand-container .brand5 {
+    position: relative;
+    z-index: 6;
+  }
+
+  .brand-container .brand6 {
+    position: relative;
+    z-index: 5;
+  }
+
+  .container1 {
+    position: relative;
+    z-index: 80;
+  }
+
+
+    
+.brand-box {
+    width: 480px;
+    margin-top: 40px;  
+}
+
+
+  .container1 .title1-1,
+  .container1 .title2 {
+    height: auto;
+  }
+    
+.top-logos-box. top-logo-1 .top-logo-1 {
+    height: auto;
+  }
+
+.top-logos-box. top-logo-2 .top-logo-2  {
+    height: auto;
+  }
+    
+  .container2 {
+    position: relative;
+    z-index: 46;
+  }
+
+  .container1
+  .container2 .feature-icon-container {
+    width: 80%;
+  }
+
+  .container3 {
+    position: relative;
+    z-index: 33;
+  }
+
+  .feature-icon-container .feature-box1 {
+    position: relative;
+    z-index: 43;
+  }
+
+  .feature-icon-container .feature-box5 {
+    clear: none;
+  }
+
+  .lines {
+    visibility: hidden;
+    overflow: visible;
+  }
+
+  .logos-container .logo-box1 {
+    position: relative;
+    z-index: 54;
+  }
+
+  .logos-container .logo-box2 {
+    position: relative;
+    z-index: 53;
+  }
+
+  .logos-container .logo-box7 {
+    position: relative;
+    clear: none;
+    z-index: 48;
+  }
+
+  .logos-container .logo-box8 {
+    position: relative;
+    z-index: 47;
+  }
+
+  .prize-container .first-place {
+    position: relative;
+    float: none;
+    z-index: 30;
+    margin-right: auto;
+    margin-left: auto;
+  }
+
+ 
+
+  .blue-badge .badge-label,
+  .brown-badge .badge-label,
+  .purple-badge .badge-label {
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+  }
+
+  .title1 .title1  {
+    width: 90.4166666666%;
+    height: auto;
+  }
+    
+    
+  .title2 .image {
+    width: 73.75%;
+    height: auto;
+  }
+
+/*
+
+.top-ilo {
+    float: left;
+    width: 100%;
+    height: auto;
+} 
+    
+*/
+    
+
+.container3 ._button {
+    padding-right: 40px;
+    padding-left: 40px;
+  }
+
+.container1 {
+    float: left;
+    clear: both;
+    margin-right: 0;
+    margin-left: 0;
+}
+  
+    
+  .container1 ._button-1 {
+    padding-right: 40px;
+    padding-left: 40px;
+  }
+
+
+
+}
+
+@media(max-width: 720px) {
+  
+body {
+    font-size: 16px;
+  }
+
+.top-logos-box {
+    width: 160px;
+}    
+
+.top-logo-1 {
+    margin-right: 15px;
+}
+    
+.top-logo-1 .top-logo-1 {
+   width: 64px; 
+}
+    
+.top-logo-2 .top-logo-2 {
+   width: 47px; 
+}
+
+    
+.top-logos-box {
+    background-size: 10px 10px;    
+}
+.feature-icon-box {
+    width: 380px;
+    margin: 0 auto 0;
+}
+    
+.checkboxes-1 {
+    width: 100%;
+    overflow: visible;
+}
+  .brand-container .brand1 {
+    position: relative;
+    z-index: 10;
+  }
+
+  .brand-container .brand2 {
+    position: relative;
+    z-index: 9;
+  }
+
+  .brand-container .brand3 {
+    position: relative;
+    clear: both;
+    z-index: 8;
+  }
+
+  .brand-container .brand4 {
+    position: relative;
+    clear: none;
+    z-index: 7;
+    margin-top: 0;
+  }
+
+  .brand-container .brand5 {
+    position: relative;
+    clear: both;
+    z-index: 6;
+    margin-top: 0;
+  }
+
+  .brand-container .brand6 {
+    position: relative;
+    z-index: 5;
+    margin-top: 0;
+  }
+
+  .container1 {
+    position: relative;
+    z-index: 80;
+    padding-top: 60px;
+  }
+
+  .container2 {
+    position: relative;
+    z-index: 46;
+  }
+
+  .container3 {
+    position: relative;
+    z-index: 33;
+  }
+
+  .container4 .brand-container {
+    max-width: 960px;
+    padding-right: 40px;
+    padding-left: 40px;
+  }
+
+  .feature-icon-container .feature-box1 {
+    position: relative;
+    z-index: 43;
+  }
+
+  .feature-icon-container .feature-box2 {
+    position: relative;
+    z-index: 41;
+  }
+
+  .feature-icon-container .feature-box4 {
+    position: relative;
+    clear: none;
+    z-index: 37;
+  }
+
+  .feature-icon-container .feature-box5 {
+    position: relative;
+    clear: none;
+    z-index: 35;
+  }
+
+  .logos-container .logo-box1 {
+    position: relative;
+    z-index: 54;
+  }
+
+  .logos-container .logo-box2 {
+    position: relative;
+    z-index: 53;
+  }
+
+  .logos-container .logo-box3 {
+    position: relative;
+    z-index: 52;
+  }
+
+  .logos-container .logo-box4 {
+    position: relative;
+    z-index: 51;
+  }
+
+  .logos-container .logo-box5 {
+    position: relative;
+    z-index: 50;
+  }
+
+  .logos-container .logo-box6 {
+    position: relative;
+    z-index: 49;
+  }
+
+  .logos-container .logo-box7 {
+    position: relative;
+    z-index: 48;
+  }
+
+  .logos-container .logo-box8 {
+    position: relative;
+    z-index: 47;
+  }
+
+  .other-places .second-place {
+    position: relative;
+    z-index: 26;
+  }
+
+  .prize-container .first-place {
+    position: relative;
+    z-index: 30;
+  }
+
+  .prize-container .other-places {
+    position: relative;
+    z-index: 27;
+  }
+
+  .blue-badge .badge-label,
+  .brown-badge .badge-label,
+  .purple-badge .badge-label {
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+  }
+
+  .title1 .title1,
+  .title2 .image,
+  .top-ilo {
+    height: auto;
+  }
+}
+
+@media(max-width: 480px) {
+
+.container1 ._button-1 {
+    width: 240px;
+    height: 54px;
+    border-radius: 5px;
+    background-color: rgb(225, 70, 102);
+    box-shadow: 3px 4px 0 rgba(0, 0, 0, 0.2);
+    font-family: 'Roboto Condensed', "Helvetica Neue", 'Helvetica', Arial, sans-serif;
+    font-size: 24px;
+    font-weight: 400;
+    color: rgb(255, 255, 255);
+}
+
+
+.container3 ._button {
+    width: 240px;
+    height: 54px;
+    border-radius: 5px;
+    background-color: #f55c8b;
+    box-shadow: 3px 4px 0 rgba(0, 0, 0, 0.2);
+    font-family: 'Roboto Condensed', "Helvetica Neue", 'Helvetica', Arial, sans-serif;
+    font-size: 24px;
+    font-weight: 400;
+    color: rgb(255, 255, 255);
+}
+
+.checkboxes-2 {
+    width: 100%;
+    overflow: visible;
+}
+    
+.lines {
+    position: absolute;
+    margin-top: 0px;
+    margin-left: 0;
+    z-index: 85;
+    width: 10%;
+    height: 2380px;
+}
+
+.lines-top {
+  float: left;
+  width: auto;
+}
+    
+.container1 .logos-container {
+    width: 360px;
+}
+    
+.prize-container{
+        width: 320px;
+}
+
+.feature-icon-box {
+    width: 300px;
+    margin: 0 auto 0;
+}
+
+.feature-box1, .feature-box2, .feature-box3, .feature-box4, .feature-box5 {
+    width: 150px;
+    height: 180px;
+    background-size: 96px 96px;
+}
+
+.feature-label {
+    margin: 110px 20px 0;
+    font-size: 13px;
+    font-weight: 400;
+}
+
+.prize-container .other-places {
+    width: 320px;
+    margin-top: 40px;
+    margin-right: auto;
+    margin-left: 0;
+    padding-bottom: 60px;
+  }
+    
+    
+    
+.blue-badge {
+  width: 150px;
+  height: 150px;
+  background-size: 150px 150px;
+}
+
+.blue-badge p {
+    padding-right: 20px;
+    padding-left: 20px;
+    font-size: 18px;
+}
+
+.brown-badge {
+    width: 150px;
+    height: 150px;
+    background-size: 150px 150px;
+}
+
+.brown-badge p {
+    padding-right: 20px;
+    padding-left: 20px;
+    font-size: 18px;
+}
+
+.purple-badge {
+    width: 150px;
+    height: 150px;
+    background-size: 150px 150px;
+}
+
+.purple-badge p {
+    padding-right: 20px;
+    padding-left: 20px;
+    font-size: 18px;
+}
+    
+.list-box {
+    margin-top: 20px;
+    padding-right: 40;
+    padding-left: 40;
+}
+
+li {
+    font-size: 16px;
+}
+    
+.container1, .container2, .container3, .container4  {
+  padding-top: 60px;
+  padding-bottom: 60px;
+}
+    
+    
+.banner-box {
+  height: 69px;
+  background-size: 288px 69px;
+}
+
+.banner-box2 {
+    height: 69px;
+    background-size: 288px 69px;
+}
+
+.banner-box3 {
+    height: 69px;
+    background-size: 288px 69px;
+}
+    
+.brand1 {
+  width: 120px;
+  height: 70px;
+  background-size: 120px 60px;
+}
+
+.brand2 {
+  width: 120px;
+  height: 70px;
+  background-size: 120px 60px;
+}
+
+.brand3 {
+  width: 120px;
+  height: 70px;
+  background-size: 120px 60px;
+}
+
+.brand4 {
+  width: 120px;
+  height: 70px;
+  background-size: 120px 60px;
+}
+
+.brand5 {
+    width: 120px;
+    height: 70px;
+    background-size: 120px 60px;
+}
+
+.brand6 {
+    width: 120px;
+    height: 70px;
+  background-size: 120px 60px;
+}
+    
+
+.brand-container {
+    margin-top: 0px;
+}
+    
+    .brand-box {
+        width: 240px;
+    }
+    
+
+.first-place {
+  width: 240px;
+  margin-left: 0.00163%;
+  background-image: url('../images/ilo-grand-prize@2x.png');
+  background-repeat: no-repeat;
+  background-size: 117px 142px;
+  background-position: center top;
+}
+    
+.first-place-label {
+  margin: 150px auto 0;
+}
+    
+}
+
+@media(max-width: 320px) {
+    
+.container1 .logos-container {
+    width: 240px;
+}  
+}
